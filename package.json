@@ -1,25 +1,28 @@
 {
+  "name": "ryad-portfolio",
+  "version": "1.0.0",
+  "private": true,
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "next dev",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "@react-three/fiber": "latest",
-    "@react-three/drei": "latest",
     "@gsap/react": "latest",
-    "gsap": "latest",
+    "@react-three/drei": "latest",
+    "@react-three/fiber": "latest",
+    "class-variance-authority": "latest",
+    "clsx": "latest",
     "framer-motion": "latest",
+    "gsap": "latest",
     "lenis": "latest",
     "lucide-react": "latest",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "three": "latest",
-    "class-variance-authority": "latest",
-    "clsx": "latest",
-    "tailwind-merge": "latest"
+    "tailwind-merge": "latest",
+    "three": "latest"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "latest",
