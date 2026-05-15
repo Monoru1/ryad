@@ -50,7 +50,7 @@
     "next": "latest",
     "next-themes": "latest",
     "react": "latest",
-    "react-day-picker": "latest",
+    "react-day-picker": "8.10.1",
     "react-dom": "latest",
     "react-hook-form": "latest",
     "react-resizable-panels": "latest",
