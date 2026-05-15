@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "tailwindcss -i ./app/globals.css -o ./app/generated.css && next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -61,6 +61,7 @@
     "vaul": "latest"
   },
   "devDependencies": {
+    "@tailwindcss/cli": "latest",
     "@tailwindcss/postcss": "latest",
     "@types/node": "latest",
     "@types/react": "18.3.18",
