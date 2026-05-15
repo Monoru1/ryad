@@ -1,4 +1,4 @@
-import { Cpu, Shield, Workflow, Server, ArrowRight, Github, Linkedin, Mail, Sparkles } from 'lucide-react'
+import { Cpu, Shield, Workflow, Server, ArrowRight, GitBranch, Link, Mail, Sparkles } from 'lucide-react'
 
 const services = [
   { title: 'Sites premium', desc: 'Landing pages, portfolios et vitrines rapides, propres et orientés conversion.', icon: Sparkles },
@@ -148,8 +148,8 @@ export default function HomePage() {
           <p className="mx-auto mt-5 max-w-2xl leading-8 text-zinc-300">Site web, dashboard, automatisation, workflow, outil interne ou prototype IA : je construis vite, proprement et avec une vraie logique produit.</p>
           <div className="mt-9 flex flex-wrap justify-center gap-4">
             <a href="mailto:contact@ryadsaka.dev" className="inline-flex items-center gap-2 rounded-2xl bg-white px-6 py-4 font-semibold text-black"><Mail className="h-4 w-4" /> Email</a>
-            <a href="https://github.com/Monoru1" className="inline-flex items-center gap-2 rounded-2xl border border-white/10 bg-white/[0.04] px-6 py-4 font-semibold"><Github className="h-4 w-4" /> GitHub</a>
-            <a href="https://linkedin.com" className="inline-flex items-center gap-2 rounded-2xl border border-white/10 bg-white/[0.04] px-6 py-4 font-semibold"><Linkedin className="h-4 w-4" /> LinkedIn</a>
+            <a href="https://github.com/Monoru1" className="inline-flex items-center gap-2 rounded-2xl border border-white/10 bg-white/[0.04] px-6 py-4 font-semibold"><GitBranch className="h-4 w-4" /> GitHub</a>
+            <a href="https://linkedin.com" className="inline-flex items-center gap-2 rounded-2xl border border-white/10 bg-white/[0.04] px-6 py-4 font-semibold"><Link className="h-4 w-4" /> LinkedIn</a>
           </div>
         </div>
       </section>
