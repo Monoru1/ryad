@@ -36,8 +36,8 @@
     "@radix-ui/react-toggle": "latest",
     "@radix-ui/react-toggle-group": "latest",
     "@radix-ui/react-tooltip": "latest",
-    "@react-three/drei": "latest",
-    "@react-three/fiber": "latest",
+    "@react-three/drei": "9.122.0",
+    "@react-three/fiber": "8.17.10",
     "class-variance-authority": "latest",
     "clsx": "latest",
     "cmdk": "latest",
@@ -57,7 +57,7 @@
     "recharts": "latest",
     "sonner": "latest",
     "tailwind-merge": "latest",
-    "three": "latest",
+    "three": "0.160.1",
     "vaul": "latest"
   },
   "devDependencies": {
