@@ -1,4 +1,4 @@
-import './globals.css'
+import '@/app/globals.css'
 import type { Metadata } from 'next'
 import { SmoothScroll } from '@/components/smooth-scroll'
 import { LoadingScreen } from '@/components/loading-screen'
